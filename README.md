@@ -41,6 +41,5 @@ Run FastAPI backend:
 uvicorn main:app --reload
 Open frontend:
 Just open index.html in your browser.
-
-Chat away! 
+ 
 
