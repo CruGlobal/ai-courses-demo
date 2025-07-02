@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GodTools AI Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding-top: 50px; }
+        textarea { width: 100%; height: 80px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        #chatbox { white-space: pre-wrap; background: #f9f9f9; padding: 10px; margin-top: 20px; border-radius: 5px; min-height: 300px; overflow-y: auto; }
+        .user { color: blue; margin-bottom: 10px; }
+        .bot { color: green; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h2>GodTools AI Chatbot</h2>
+    <div id="chatbox"></div>
+
+    <textarea id="userInput" placeholder="Type your question..."></textarea><br>
+    <button onclick="sendMessage()">Send</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
